@@ -1,0 +1,37 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header, .top, footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+nav, p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB
+}
+
+.quoteauth {
+    font-size: 18px;
+    font-weight: bold;
+    font-style:normal;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
