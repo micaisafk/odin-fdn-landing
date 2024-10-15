@@ -1,14 +1,15 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, .top, .info, .quote, footer {
+    padding: 10px 200px;
 }
 
 header, .top, footer {
     background-color: #1F2937;
-}
-
-.logo {
-    font-size: 24px;
-    color: #F9FaF8;
 }
 
 nav, p {
@@ -16,22 +17,121 @@ nav, p {
     color: #E5E7EB;
 }
 
-.quote {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-    color: #1F2937;
-    background-color: #E5E7EB
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.quoteauth {
-    font-size: 18px;
+.logo {
+    font-size: 24px;
+    color: #F9FaF8;
     font-weight: bold;
-    font-style:normal;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    padding-top: 72px;
+    padding-bottom: 112px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    background-color: #6d747d;
+    color: #fff;
+    width: 1100px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+button {
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 4px 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    padding: 24px 0px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 48px 0px 48px;
+}
+
+.border {
+    border: 4px solid #3882F6;
+    width: 148px;
+    height: 148px;
+    border-radius: 12px;
+}
+
+.caption {
+    width: 148px;
+    height: 148px;
+    text-align: center;
+    color: #6d747d;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding: 96px 296px;
+}
+
+.quoteauth {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right; 
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #fff;
+    margin: 96px 200px;
+    padding: 24px 96px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+footer {
+    color: #fff;
 }
